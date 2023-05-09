@@ -27,7 +27,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 180px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -39,13 +39,15 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 14px;
   height: 24px;
   width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 button {
@@ -63,4 +65,19 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.modal{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header{
+  font-size: 1.3em;
+  font-weight: 900;
 }
